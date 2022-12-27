@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ChooseFolder.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+    <div>
+        <h1>Folder Selector</h1>
+    </div>
+    <div id="dvTable">
+        <table>
+            <tr>
+                <th class="th1">File Name</th>
+                <th class="th2">File Size</th>
+                <th class="th3">Info</th>
+            </tr>
+            <tbody id="dataContent">
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="ChooseBtn">
+        <label for="files" class="btn btn-1">Choose Folder</label>
+        <input id="files" style="visibility:hidden;" type="file" multiple onchange="gettingData(event)">
+    </div>
+    <script src="./ChooseFolder.js"></script>
+</div>
+</body>
+
+</html>

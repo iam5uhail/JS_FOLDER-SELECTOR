@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(53, 53, 53);
+}
+
+.container {
+  color: white;
+  height: 100vh;
+}
+
+.container h1 {
+  margin: 2rem;
+  padding: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 15px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+
+table {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 20px 20px;
+  border: none;
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+
+}
+
+th {
+  border: none;
+  border-radius: 10px;
+  border: collapse;
+  text-align: center;
+  padding: 1rem;
+}
+
+.th1 {
+  background-color: orange;
+}
+
+.th2 {
+  background-color: crimson;
+}
+
+.th3 {
+  background-color: skyblue;
+}
+
+td {
+  border-radius: 10px;
+  border: none;
+  border: collapse;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.tooltip button{
+  cursor: pointer;
+  border: 2px solid orange;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.tooltip .tooltiptext {
+  border: 2px solid;
+  display: none;
+  color: crimson;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  width: 10rem;
+}
+
+.tooltip:hover .tooltiptext {
+display: block;
+}
+
+.container #ChooseBtn {
+  display: flex;
+  flex-direction: column;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container #ChooseBtn label {
+  cursor: pointer;
+  border: 2px solid;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-position: right center;
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
